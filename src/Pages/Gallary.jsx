@@ -85,8 +85,8 @@ const Gallery = () => {
   return (
     <div className="py-5 m-5 perspective-1000">
       <h2 className="text-4xl font-bold text-red-600 text-center mb-6 drop-shadow-lg">
-          My Certificates
-        </h2>
+        My Certificates
+      </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
         {certificates.map((cert, index) => (
           <div
@@ -110,11 +110,11 @@ const Gallery = () => {
 
       {/* Modal for displaying the image */}
       {isOpen && (
-        <div className="fixed inset-0 flex items-center justify-center z-50 bg-black bg-opacity-75 ">
-          <div className="relative">
+        <div className="fixed inset-0 flex items-center justify-center z-50 bg-black bg-opacity-75 p-4">
+          <div className="relative w-full h-full max-w-3xl max-h-full flex flex-col items-center">
             <button
               onClick={closeModal}
-              className="absolute top-0 right-1 text-white bg-red-600 font-bold p-2 rounded-s-3xl rounded-e-3xl"
+              className="absolute top-0 right-1 text-white bg-red-600 font-bold p-2 rounded-full"
             >
               &times;
             </button>
@@ -133,7 +133,7 @@ const Gallery = () => {
             <img
               src={certificates[currentImageIndex].imageUrl}
               alt={certificates[currentImageIndex].title}
-              className="max-w-3xl max-h-[80vh] object-contain rounded-xl shadow-xl"
+              className="w-full h-auto max-h-[80vh] object-contain rounded-xl shadow-xl"
             />
             <div className="text-center text-white mt-2">
               <h3 className="text-lg font-semibold">
