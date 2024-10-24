@@ -1,12 +1,34 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import React, { useState, useEffect } from "react";
+import { Link, useLocation } from "react-router-dom"; // Import useLocation
 import { Button } from "flowbite-react"; // Ensure Flowbite is installed
 import { IoMdClose } from "react-icons/io";
 import { CiImport, CiMenuBurger } from "react-icons/ci";
 
 const Navbar = () => {
-  const [activeLink, setActiveLink] = useState("home"); // State to track the active link
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false); // State to track mobile menu visibility
+  const location = useLocation(); // Get the current route
+
+  // Set the active link based on the current location path
+  const getActiveLink = () => {
+    switch (location.pathname) {
+      case "/about":
+        return "about";
+      case "/portfolio":
+        return "portfolio";
+      case "/gallery":
+        return "gallery";
+      case "/contact":
+        return "contact";
+      default:
+        return "home";
+    }
+  };
+
+  const [activeLink, setActiveLink] = useState(getActiveLink());
+
+  useEffect(() => {
+    setActiveLink(getActiveLink());
+  }, [location]); // Update the active link whenever the route changes
 
   const handleLinkClick = (link) => {
     setActiveLink(link); // Set the active link state
