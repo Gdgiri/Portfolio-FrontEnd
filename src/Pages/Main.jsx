@@ -32,7 +32,7 @@ const Main = () => {
       {/* Right Side - Image */}
       <div className="md:w-1/2 mt-6 md:mt-0 flex justify-center animate-fadeInRight">
         <img
-          src="https://i.pinimg.com/564x/3e/4e/d2/3e4ed2befc1e6f12ca0020ea24f13e2e.jpg"
+          src="https://i.pinimg.com/564x/90/30/85/9030852fb12ce438bf0d16616224f696.jpg"
           alt="Giridharan S"
           className="w-80 h-auto rounded-full border-4 border-gray-300 shadow-2xl transform hover:scale-110 transition-transform duration-300"
         />

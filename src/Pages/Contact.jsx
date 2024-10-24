@@ -104,7 +104,7 @@ const ContactInfo = () => (
     <ContactDetail
       icon={<FaPhone className="text-blue-500 mr-2" />}
       label="Phone"
-      link="tel:+9715424895"
+      link="tel:+91 9715424895"
       text="9715424895"
     />
     <ContactDetail
