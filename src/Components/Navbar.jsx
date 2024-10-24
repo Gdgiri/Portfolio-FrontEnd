@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom"; // Import Link from react-router-dom
-import { Button } from "flowbite-react"; // Ensure you have Flowbite installed if you want to use it.
+import { Link } from "react-router-dom";
+import { Button } from "flowbite-react"; // Ensure Flowbite is installed
 import { IoMdClose } from "react-icons/io";
 import { CiImport, CiMenuBurger } from "react-icons/ci";
 
@@ -26,7 +26,17 @@ const Navbar = () => {
       <div className="container mx-auto flex justify-between items-center p-4">
         {/* Left Side - Brand Name */}
         <div className="text-xl font-bold text-gray-800">
-          <span className="text-2xl text-red-600">Creative</span>
+          <span
+            className="text-2xl text-red-600"
+            style={{
+              fontFamily: "'Tangerine', cursive",
+              fontSize: "40px",
+              fontWeight: "800",
+              fontStyle: "normal",
+            }}
+          >
+            Creative
+          </span>
           <span> Hill</span>
         </div>
 
