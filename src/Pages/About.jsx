@@ -87,7 +87,7 @@ const About = () => {
     <section className="min-h-screen py-10 bg-gradient-to-b from-white to-gray-100">
       <div className="container mx-auto px-6 lg:px-20">
         {/* Title */}
-        <h2 className="text-5xl font-bold text-center text-gray-800 mb-8">
+        <h2 className="text-4xl font-bold text-red-600 text-center mb-6 drop-shadow-lg">
           About Me
         </h2>
 
@@ -129,7 +129,7 @@ const About = () => {
 
         {/* Skills & Tools with Mapped Images */}
         <div className="mt-16 text-center">
-          <h3 className="text-3xl font-bold text-gray-800 mb-8">
+          <h3 className="text-4xl font-bold text-red-600 text-center mb-6 drop-shadow-lg">
             Skills & Tools
           </h3>
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8">
