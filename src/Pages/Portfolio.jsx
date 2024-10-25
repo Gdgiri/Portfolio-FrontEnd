@@ -5,9 +5,9 @@ const Portfolio = () => {
     {
       id: 1,
       title: "GD-Events",
-      description: "GD-Events it is used to book the venues for marriage",
+      description: "GD-Events is used to book the venues for marriage.",
       imageUrl:
-        "https://github.com/user-attachments/assets/0cda7b2d-fc0f-46c4-9e10-c6de3c2a4812",
+        "https://github.com/user-attachments/assets/c819cbe1-3451-4c97-8a3a-9f1f84bca852",
       projectLink: "https://wedding-app-gdevents.netlify.app/",
     },
     {
@@ -23,16 +23,16 @@ const Portfolio = () => {
       title: "React Application",
       description:
         "Developed a responsive React application with modern JavaScript features.",
-      imageUrl: "/path/to/project2.jpg", // Replace with the actual image path
-      projectLink: "https://example.com/project2",
+      imageUrl: "/path/to/project3.jpg", // Replace with the actual image path
+      projectLink: "https://example.com/project3",
     },
     {
       id: 4,
       title: "React Application",
       description:
         "Developed a responsive React application with modern JavaScript features.",
-      imageUrl: "/path/to/project2.jpg", // Replace with the actual image path
-      projectLink: "https://example.com/project2",
+      imageUrl: "/path/to/project4.jpg", // Replace with the actual image path
+      projectLink: "https://example.com/project4",
     },
   ];
 
@@ -50,7 +50,7 @@ const Portfolio = () => {
             <img
               src={project.imageUrl}
               alt={project.title}
-              className="w-full h-48 object-cover transition-transform transform hover:scale-110"
+              className="w-full h-80  transition-transform transform hover:scale-110" // Set a fixed height
             />
             <div className="p-4">
               <h3 className="text-lg font-semibold text-gray-800">
