@@ -31,7 +31,6 @@ const skills = [
     imageUrl:
       "https://github.com/user-attachments/assets/63b2bdb2-9f20-428f-9d94-6e8d0a4da05a",
   },
-
   {
     name: "Firebase",
     imageUrl:
@@ -52,13 +51,11 @@ const skills = [
     imageUrl:
       "https://github.com/user-attachments/assets/d7ac39d5-d38e-4a23-a8ce-3cab0606ca22",
   },
-
   {
     name: "Flowbite-React",
     imageUrl:
       "https://github.com/user-attachments/assets/ceb16525-a97b-44b9-b0a4-2224685dedad",
   },
-
   {
     name: "Postman",
     imageUrl:
@@ -74,7 +71,6 @@ const skills = [
     imageUrl:
       "https://github.com/user-attachments/assets/87ae56a2-4941-4827-820d-2b30ec64b3ce",
   },
-
   {
     name: "Bootstrap5",
     imageUrl:
@@ -84,7 +80,7 @@ const skills = [
 
 const About = () => {
   return (
-    <section className="min-h-screen py-10 bg-gradient-to-b from-white to-gray-100">
+    <section className="min-h-screen py-12 ">
       <div className="container mx-auto px-6 lg:px-20">
         {/* Title */}
         <h2 className="text-4xl font-bold text-red-600 text-center mb-6 drop-shadow-lg">
@@ -133,7 +129,6 @@ const About = () => {
             Skills & Tools
           </h3>
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8">
-            {/* Map through the skills array */}
             {skills.map((skill, index) => (
               <div key={index} className="flex flex-col items-center">
                 <div className="transform transition-transform duration-300 hover:scale-125 hover:rotate-12">
