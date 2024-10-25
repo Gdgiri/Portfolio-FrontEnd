@@ -120,13 +120,13 @@ const Gallery = () => {
             </button>
             <button
               onClick={goToPrevious}
-              className="absolute left-2 top-1/2 transform -translate-y-1/2 text-white bg-gray-800 rounded-full p-2"
+              className="absolute left-2 top-1/2 transform -translate-y-1/2 text-white bg-red-600 rounded-full p-2"
             >
               &lt;
             </button>
             <button
               onClick={goToNext}
-              className="absolute right-2 top-1/2 transform -translate-y-1/2 text-white bg-gray-800 rounded-full p-2"
+              className="absolute right-2 top-1/2 transform -translate-y-1/2 text-white bg-red-600 rounded-full p-2"
             >
               &gt;
             </button>
