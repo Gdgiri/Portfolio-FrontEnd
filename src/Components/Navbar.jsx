@@ -45,7 +45,7 @@ const Navbar = () => {
 
   return (
     <nav className="bg-white shadow-md sticky top-0 z-50">
-      <div className="container mx-auto flex justify-between items-center p-4">
+      <div className="container mx-auto flex justify-between items-center p-4 sm:justify-center md:justify-between">
         {/* Left Side - Brand Name */}
         <div className="text-xl font-bold text-gray-800">
           <span
@@ -134,7 +134,7 @@ const Navbar = () => {
         {/* Mobile Menu */}
         {isMobileMenuOpen && (
           <div className="absolute top-16 left-0 w-full bg-white shadow-md md:hidden">
-            <div className="flex flex-col space-y-2 p-4">
+            <div className="flex flex-col items-center space-y-2 p-4">
               <Link
                 to="/"
                 onClick={() => handleLinkClick("home")}
@@ -142,7 +142,7 @@ const Navbar = () => {
                   activeLink === "home"
                     ? "bg-red-100 text-red-600 font-bold px-4 py-2 rounded-lg shadow-lg"
                     : "text-gray-700 hover:text-red-500"
-                }text-center`}
+                } text-center`}
               >
                 Home
               </Link>
@@ -153,7 +153,7 @@ const Navbar = () => {
                   activeLink === "about"
                     ? "bg-red-100 text-red-600 font-bold px-4 py-2 rounded-lg shadow-lg"
                     : "text-gray-700 hover:text-red-500"
-                }text-center`}
+                } text-center`}
               >
                 About
               </Link>
@@ -164,7 +164,7 @@ const Navbar = () => {
                   activeLink === "portfolio"
                     ? "bg-red-100 text-red-600 font-bold px-4 py-2 rounded-lg shadow-lg"
                     : "text-gray-700 hover:text-red-500"
-                }text-center`}
+                } text-center`}
               >
                 Portfolio
               </Link>
@@ -175,7 +175,7 @@ const Navbar = () => {
                   activeLink === "gallery"
                     ? "bg-red-100 text-red-600 font-bold px-4 py-2 rounded-lg shadow-lg"
                     : "text-gray-700 hover:text-red-500"
-                }text-center`}
+                } text-center`}
               >
                 Gallery
               </Link>
@@ -186,7 +186,7 @@ const Navbar = () => {
                   activeLink === "contact"
                     ? "bg-red-100 text-red-600 font-bold px-4 py-2 rounded-lg shadow-lg"
                     : "text-gray-700 hover:text-red-500"
-                }text-center`}
+                } text-center`}
               >
                 Contact
               </Link>
