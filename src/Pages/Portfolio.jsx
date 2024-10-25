@@ -4,11 +4,11 @@ const Portfolio = () => {
   const projects = [
     {
       id: 1,
-      title: "Full Stack Development Project",
-      description:
-        "Completed a comprehensive project showcasing full stack web development skills.",
-      imageUrl: "/path/to/project1.jpg", // Replace with the actual image path
-      projectLink: "https://example.com/project1",
+      title: "GD-Events",
+      description: "GD-Events it is used to book the venues for marriage",
+      imageUrl:
+        "https://github.com/user-attachments/assets/0cda7b2d-fc0f-46c4-9e10-c6de3c2a4812",
+      projectLink: "https://wedding-app-gdevents.netlify.app/",
     },
     {
       id: 2,
@@ -62,7 +62,7 @@ const Portfolio = () => {
                   href={project.projectLink}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-500 hover:underline transition duration-200 transform hover:scale-105"
+                  className="inline-block mt-4 px-6 py-2 text-white bg-red-600 rounded-lg hover:bg-red-700 transition-all duration-300"
                 >
                   View Project
                 </a>
