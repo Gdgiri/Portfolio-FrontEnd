@@ -94,7 +94,7 @@ const About = () => {
             <img
               src="https://i.pinimg.com/564x/3e/4e/d2/3e4ed2befc1e6f12ca0020ea24f13e2e.jpg"
               alt="Giridharan"
-              className="w-80 h-auto rounded-full shadow-2xl"
+              className="w-80 h-auto rounded-full border-4 border-gray-300 shadow-2xl transform hover:scale-110 transition-transform duration-300"
             />
           </div>
 
