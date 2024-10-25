@@ -54,18 +54,20 @@ const Portfolio = () => {
             />
             <div className="p-4">
               <h3 className="text-lg font-semibold text-gray-800">
-                {project.title}
+              Project-Title: {project.title}
               </h3>
-              <p className="text-gray-600 mb-2">{project.description}</p>
+              <p className="text-gray-600 mb-2"><strong>Project-Description:</strong> {project.description}</p>
               {project.projectLink && (
-                <a
-                  href={project.projectLink}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-block mt-4 px-6 py-2 text-white bg-red-600 rounded-lg hover:bg-red-700 transition-all duration-300"
-                >
-                  View Project
-                </a>
+                <div className="text-center">
+                  <a
+                    href={project.projectLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block mt-4 px-6 py-2 text-white bg-red-600 rounded-lg hover:bg-red-700 transition-all duration-300 "
+                  >
+                    View Project
+                  </a>
+                </div>
               )}
             </div>
           </div>
