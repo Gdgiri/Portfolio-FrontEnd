@@ -76,10 +76,12 @@ const Navbar = () => {
         <div className={`hidden md:flex space-x-4`}>
           <Link
             to="/"
-            onClick={() => handleLinkClick("home")} // Update active link on click
+            onClick={() => handleLinkClick("home")}
             className={`${
-              activeLink === "home" ? "text-red-600 font-bold" : "text-gray-700"
-            } hover:text-red-500`}
+              activeLink === "home"
+                ? "bg-red-100 text-red-600 font-bold px-4 py-2 rounded-lg shadow-lg"
+                : "text-gray-700 hover:text-red-500"
+            }`}
           >
             Home
           </Link>
@@ -88,9 +90,9 @@ const Navbar = () => {
             onClick={() => handleLinkClick("about")}
             className={`${
               activeLink === "about"
-                ? "text-red-600 font-bold"
-                : "text-gray-700"
-            } hover:text-red-500`}
+                ? "bg-red-100 text-red-600 font-bold px-4 py-2 rounded-lg shadow-lg"
+                : "text-gray-700 hover:text-red-500"
+            }`}
           >
             About
           </Link>
@@ -99,9 +101,9 @@ const Navbar = () => {
             onClick={() => handleLinkClick("portfolio")}
             className={`${
               activeLink === "portfolio"
-                ? "text-red-600 font-bold"
-                : "text-gray-700"
-            } hover:text-red-500`}
+                ? "bg-red-100 text-red-600 font-bold px-4 py-2 rounded-lg shadow-lg"
+                : "text-gray-700 hover:text-red-500"
+            }`}
           >
             Portfolio
           </Link>
@@ -110,9 +112,9 @@ const Navbar = () => {
             onClick={() => handleLinkClick("gallery")}
             className={`${
               activeLink === "gallery"
-                ? "text-red-600 font-bold"
-                : "text-gray-700"
-            } hover:text-red-500`}
+                ? "bg-red-100 text-red-600 font-bold px-4 py-2 rounded-lg shadow-lg"
+                : "text-gray-700 hover:text-red-500"
+            }`}
           >
             Gallery
           </Link>
@@ -121,9 +123,9 @@ const Navbar = () => {
             onClick={() => handleLinkClick("contact")}
             className={`${
               activeLink === "contact"
-                ? "text-red-600 font-bold"
-                : "text-gray-700"
-            } hover:text-red-500`}
+                ? "bg-red-100 text-red-600 font-bold px-4 py-2 rounded-lg shadow-lg"
+                : "text-gray-700 hover:text-red-500"
+            }`}
           >
             Contact
           </Link>
@@ -138,9 +140,9 @@ const Navbar = () => {
                 onClick={() => handleLinkClick("home")}
                 className={`${
                   activeLink === "home"
-                    ? "text-red-600 font-bold"
-                    : "text-gray-700"
-                } hover:text-red-500`}
+                    ? "bg-red-100 text-red-600 font-bold px-4 py-2 rounded-lg shadow-lg"
+                    : "text-gray-700 hover:text-red-500"
+                }`}
               >
                 Home
               </Link>
@@ -149,9 +151,9 @@ const Navbar = () => {
                 onClick={() => handleLinkClick("about")}
                 className={`${
                   activeLink === "about"
-                    ? "text-red-600 font-bold"
-                    : "text-gray-700"
-                } hover:text-red-500`}
+                    ? "bg-red-100 text-red-600 font-bold px-4 py-2 rounded-lg shadow-lg"
+                    : "text-gray-700 hover:text-red-500"
+                }`}
               >
                 About
               </Link>
@@ -160,9 +162,9 @@ const Navbar = () => {
                 onClick={() => handleLinkClick("portfolio")}
                 className={`${
                   activeLink === "portfolio"
-                    ? "text-red-600 font-bold"
-                    : "text-gray-700"
-                } hover:text-red-500`}
+                    ? "bg-red-100 text-red-600 font-bold px-4 py-2 rounded-lg shadow-lg"
+                    : "text-gray-700 hover:text-red-500"
+                }`}
               >
                 Portfolio
               </Link>
@@ -171,9 +173,9 @@ const Navbar = () => {
                 onClick={() => handleLinkClick("gallery")}
                 className={`${
                   activeLink === "gallery"
-                    ? "text-red-600 font-bold"
-                    : "text-gray-700"
-                } hover:text-red-500`}
+                    ? "bg-red-100 text-red-600 font-bold px-4 py-2 rounded-lg shadow-lg"
+                    : "text-gray-700 hover:text-red-500"
+                }`}
               >
                 Gallery
               </Link>
@@ -182,9 +184,9 @@ const Navbar = () => {
                 onClick={() => handleLinkClick("contact")}
                 className={`${
                   activeLink === "contact"
-                    ? "text-red-600 font-bold"
-                    : "text-gray-700"
-                } hover:text-red-500`}
+                    ? "bg-red-100 text-red-600 font-bold px-4 py-2 rounded-lg shadow-lg"
+                    : "text-gray-700 hover:text-red-500"
+                }`}
               >
                 Contact
               </Link>
