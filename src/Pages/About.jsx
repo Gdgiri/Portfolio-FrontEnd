@@ -2,6 +2,11 @@ import React from "react";
 
 const skills = [
   {
+    name: "HTML & CSS",
+    imageUrl:
+      "https://github.com/user-attachments/assets/63b2bdb2-9f20-428f-9d94-6e8d0a4da05a",
+  },
+  {
     name: "JavaScript",
     imageUrl:
       "https://github.com/user-attachments/assets/4eee86c5-bdaf-486b-95ef-260207a6ea8f",
@@ -12,14 +17,24 @@ const skills = [
       "https://github.com/user-attachments/assets/75c10923-1029-497a-ab1f-dc6d094beab5",
   },
   {
+    name: "Bootstrap5",
+    imageUrl:
+      "https://github.com/user-attachments/assets/4d4a1e29-c114-4111-bbe4-b88354d4bdc7",
+  },
+  {
+    name: "Tailwind",
+    imageUrl:
+      "https://github.com/user-attachments/assets/d7ac39d5-d38e-4a23-a8ce-3cab0606ca22",
+  },
+  {
+    name: "Flowbite-React",
+    imageUrl:
+      "https://github.com/user-attachments/assets/ceb16525-a97b-44b9-b0a4-2224685dedad",
+  },
+  {
     name: "Node.js",
     imageUrl:
       "https://github.com/user-attachments/assets/447b152a-7d1b-45d5-939e-ee5962cf1459",
-  },
-  {
-    name: "MongoDB",
-    imageUrl:
-      "https://github.com/user-attachments/assets/fd856797-408b-4efe-abeb-44ceff2f76df",
   },
   {
     name: "Express",
@@ -27,10 +42,11 @@ const skills = [
       "https://github.com/user-attachments/assets/f615393a-39e2-434e-91fb-3a1d3abd36cc",
   },
   {
-    name: "HTML & CSS",
+    name: "MongoDB",
     imageUrl:
-      "https://github.com/user-attachments/assets/63b2bdb2-9f20-428f-9d94-6e8d0a4da05a",
+      "https://github.com/user-attachments/assets/fd856797-408b-4efe-abeb-44ceff2f76df",
   },
+
   {
     name: "Firebase",
     imageUrl:
@@ -46,16 +62,7 @@ const skills = [
     imageUrl:
       "https://github.com/user-attachments/assets/8b67e22c-5275-4b28-9f87-ac91c2562836",
   },
-  {
-    name: "Tailwind",
-    imageUrl:
-      "https://github.com/user-attachments/assets/d7ac39d5-d38e-4a23-a8ce-3cab0606ca22",
-  },
-  {
-    name: "Flowbite-React",
-    imageUrl:
-      "https://github.com/user-attachments/assets/ceb16525-a97b-44b9-b0a4-2224685dedad",
-  },
+
   {
     name: "Postman",
     imageUrl:
@@ -70,11 +77,6 @@ const skills = [
     name: "Render",
     imageUrl:
       "https://github.com/user-attachments/assets/87ae56a2-4941-4827-820d-2b30ec64b3ce",
-  },
-  {
-    name: "Bootstrap5",
-    imageUrl:
-      "https://github.com/user-attachments/assets/4d4a1e29-c114-4111-bbe4-b88354d4bdc7",
   },
 ];
 
