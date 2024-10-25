@@ -92,7 +92,7 @@ const Gallery = () => {
           <div
             key={cert.id}
             className="overflow-hidden rounded-lg shadow-lg transform transition-transform hover:scale-105 cursor-pointer hover:shadow-2xl"
-            onClick={() => openModal(index)} // Open modal on image click
+            onClick={() => openModal(index)}
           >
             <img
               src={cert.imageUrl}
@@ -110,8 +110,8 @@ const Gallery = () => {
 
       {/* Modal for displaying the image */}
       {isOpen && (
-        <div className="fixed inset-0 flex items-center justify-center z-50 bg-black bg-opacity-75 p-4">
-          <div className="relative w-full h-full max-w-3xl max-h-full flex flex-col items-center">
+        <div className="fixed inset-0 flex items-center justify-center z-50 bg-black bg-opacity-75 p-4 ">
+          <div className="relative w-full h-full max-w-3xl max-h-full flex flex-col items-center mt-8 md:mt-0 md:justify-center">
             <button
               onClick={closeModal}
               className="absolute top-0 right-1 text-white bg-red-600 font-bold p-2 rounded-full"
