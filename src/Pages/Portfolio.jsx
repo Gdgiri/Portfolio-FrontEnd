@@ -12,11 +12,12 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      title: "React Application",
+      title: "Tamil Letters",
       description:
         "Developed a responsive React application with modern JavaScript features.",
-      imageUrl: "/path/to/project2.jpg", // Replace with the actual image path
-      projectLink: "https://example.com/project2",
+      imageUrl:
+        "https://github.com/user-attachments/assets/4edac14a-35e5-44a6-9116-c3c914458542",
+      projectLink: "https://gdgiri.github.io/tamil-letters1/",
     },
     {
       id: 3,
