@@ -38,7 +38,7 @@ const Navbar = () => {
   const downloadResume = () => {
     // Trigger a download programmatically
     const link = document.createElement("a");
-    link.href = "/mern-syllabus.pdf"; // Path to your PDF file
+    link.href = "/Giri-Resume.pdf"; // Path to your PDF file
     link.download = "My_Resume.pdf"; // Filename for the downloaded file
     link.click();
   };
