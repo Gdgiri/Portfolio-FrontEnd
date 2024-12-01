@@ -19,22 +19,6 @@ const Portfolio = () => {
         "https://github.com/user-attachments/assets/4edac14a-35e5-44a6-9116-c3c914458542",
       projectLink: "https://gdgiri.github.io/tamil-letters1/",
     },
-    {
-      id: 3,
-      title: "React Application",
-      description:
-        "Developed a responsive React application with modern JavaScript features.",
-      imageUrl: "/path/to/project3.jpg", // Replace with the actual image path
-      projectLink: "https://example.com/project3",
-    },
-    {
-      id: 4,
-      title: "React Application",
-      description:
-        "Developed a responsive React application with modern JavaScript features.",
-      imageUrl: "/path/to/project4.jpg", // Replace with the actual image path
-      projectLink: "https://example.com/project4",
-    },
   ];
 
   return (
