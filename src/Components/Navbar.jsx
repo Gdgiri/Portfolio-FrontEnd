@@ -57,9 +57,9 @@ const Navbar = () => {
               fontStyle: "normal",
             }}
           >
-            Creative
+            GD-
           </span>
-          <span> Hill</span>
+          <span> Coder</span>
         </div>
 
         {/* Right Side - Toggle Button for Mobile View */}
